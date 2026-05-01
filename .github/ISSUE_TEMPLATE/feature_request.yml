@@ -13,7 +13,7 @@ body:
 
         If a similar feature request already exists, please comment on the existing issue instead of creating a duplicate.
 
-        This repository is for MeshCore Firmware, Meshcore App and Ripple Firmware. 
+        This repository is for MeshCore Community Firmware and Client App and Ripple Firmware 
 
   - type: checkboxes
     id: precheck
@@ -22,7 +22,7 @@ body:
       options:
         - label: I have searched existing issues and feature requests
           required: true
-        - label: I understand this repository is for MeshCore, not MeshOS
+        - label: I understand this repository is for MeshCore Community Firmware and Client App and Ripple Firmware
           required: true
 
   - type: dropdown
