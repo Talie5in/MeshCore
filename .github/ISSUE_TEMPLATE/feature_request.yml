@@ -49,9 +49,9 @@ body:
       label: Target Platform
       description: MCU family, if relevant.
       options:
+        - Not platform specific
         - ESP32
         - nRF52
-        - Not platform specific
         - Unsure
     validations:
       required: true
