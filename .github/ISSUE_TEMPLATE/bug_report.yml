@@ -13,7 +13,7 @@ body:
 
         If your issue matches an existing one, please comment on the existing issue instead of creating a duplicate.
 
-        This repository is for MeshCore only. MeshOS is a separate project and is not owned or maintained by the MeshCore team.
+        This repository is for MeshCore Community Firmware and Client App and Ripple Firmware.
 
   - type: checkboxes
     id: precheck
@@ -22,7 +22,7 @@ body:
       options:
         - label: I have searched existing issues and this is not a duplicate
           required: true
-        - label: I understand this repository is for MeshCore, not MeshOS
+        - label: I understand this repository is for MeshCore Community Firmware and Client App and Ripple Firmware
           required: true
 
   - type: dropdown
