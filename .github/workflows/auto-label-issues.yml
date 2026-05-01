@@ -59,7 +59,7 @@ jobs:
             }
 
             if (body.includes("Documentation")) {
-              labels.add("documentation");
+              labels.add("area:documentation");
             }
 
             if (body.includes("Unsure")) {
