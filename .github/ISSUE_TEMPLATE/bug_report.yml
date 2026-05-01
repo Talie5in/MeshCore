@@ -47,9 +47,9 @@ body:
       label: Platform
       description: MCU family, not board model.
       options:
+        - Not platform specific
         - ESP32
         - nRF52
-        - Not platform specific
         - Unsure
     validations:
       required: true
@@ -67,7 +67,7 @@ body:
     attributes:
       label: Radio Settings
       description: Frequency plan, bandwidth, spreading factor, coding rate, and region if relevant.
-      placeholder: "e.g. AU915 / 125kHz / SF9 / CR4/5"
+      placeholder: "e.g. AU915 / 62.5kHz / SF9 / CR4/5"
 
   - type: textarea
     id: summary
